@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+    iframe {
+      height: 98vh;
+      width: 98vw;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <iframe
+        src="https://app.powerbi.com/reportEmbed?reportId=f14eebbc-64ec-45ec-a0ae-d007f4541be5&autoAuth=true&ctid=aab4897d-5f99-4439-b442-c204c65875b5&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXNvdXRoLWVhc3QtYXNpYS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D"
+        frameborder="0"
+        allowfullscreen="true"
+      ></iframe>
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // Read embed application token from textbox
+      var txtAccessToken =
+        'H4sIAAAAAAAEAB2Wta7FCpZE_-WlHslMI3VgZmZn5mNmbM2_z-3OK9lLqlX73__Y2TvMWfnP__5z--gbQibBCm5oE9EiCb1sZkK6SeKQSdDrf_ZBj-IKHVpL9WsiDGleiPXWbjOSrUsQs0jb3a_C8wQtXQAaCpuhdStEIACZdd37ebjl1xhg6hDTAO_gCe5M-UGFYEF8tTcU5wsIG5EQlWKtB2df1cNfKNPUPKJmdi1Q8hRNjSrSY4ko4JEObgBhVHUKsJikFK9ouDDLAF3lzzTN8rXab000Wa2ACMLqF48i1pNY5QmKw3dQuXdDeijnEriOH_PUONNxBcXeRfQs6vsDKbYLEft0D5AwJNp-uPRceo8UVrlb8M7ZowUoqSzv7uBKhsnzyUT7djzwo0qDg1kQJI1R4nU3EBhLVFt_5TroZb0hfe4z_CyPko3lruB5rjraChW5Pcf8XUh1KWrtQTR3bPebkNt6MEkpC7saSPb20zvnx2OjICgzxxbPWU0VgfvlTLFjR2oJAf748donXd1CglIz3ryL4IfcRaU43bFpVsmHrMCp7iH5zjKxx-949B5gfgYY3cfqMHHuYciYQZiSsaPCya3GeUkmmhJWWugeXG_2eLhwcu8shrV9jBJcMxg7mlXOV6YdYh9sNZFVE2OpKkygCComuFowFINH9cy-q3m-laVbG5e1jD9WJUdK2txrNOIDocIfibiGmQ7ob3_jMQRPoYjZjLoDkdLXUEtUHklo_ajTODvcYrFlZTDHhiOtaiuflmckMEZVeEHLw_LjU3YxPtoNj3K4ELEo3B5Li6TlgkKDjObarx42NgOJEetq39RKpnly7WrhEODltIxrpLl65lMvSasW_zhZl13Alin3ZXkeFB31LOf3fJA_SGee1zupAqNRJH_uM9rdHcyH3O1_AYH4gTUS8gCQoNZXY_gmTpMxTOZLDaK0aVrT86Uh8C4oljH6dvLwkBaMqcwlirAXNWwDHsGXHMcB1yROXvFTIkIOHBYZGPYnxzyiSIsZEx8NU1Zrv6SU_5gOJdMCRQN5kqsGiqlka0cIqAOSNDlu3F_8iwWhx7tTSh9MZ_GjsLRkiiUpDaBbiaWpktSrQ4MLXT07zytydMro6JctlrGAPTT5OJ7vic0LO-kHwq8msLseRPPeD-4hbzdKl4jPSTM5lwmTOQ1GVkr22Bsds_EytMQtFWBr0bepaSEuhvcwa5Hxvtqa7C3mr9HIO32uPkv8wBOg0AXSxqc5RNzhdg4SJydmMARcN1Hwsu-OwmyM37LLREg7qapoH3T4B0L--VePeeMjH-NPEdaA8ps1NgggI_kYQxz5WrKC66nVj_KtvmuaXlwPzMXk6eLzhsrp9rYiPF1mR6ksdb5bKmu1yy0-K9FSTA-4ANy02UDnKcNO5lxwOpHKyAAiApFwys54cvD5Ax3ztMt6SsQ_qJiTzNKKlqjeLuLuAWjt2TB-x50NV2iPB_o48AI12tHyfCPVdskZY8DbHdspFf_bGXGaqLpV5qHwzT8VcnkXE0V_AdHbcCOdhG4eZPNRFA0_3iO1HR_tcupXHmypH1sYmuhjWADkCNwvYrHz_oIX1g_ONyNNYq0yzm2e8rpu5QidCpMEJFlFPPGIuhpvf0e2MBXMQ7GHZhYPPJ0dT1zaWsCC1nO2yg3reHem-xGW1JH68PsbED26wpkqcbwthqqH9JfQNFmkAoLCp2cxrY0qehgWlauaqIEkl_ycz9pBrcr7vcuDALjPODcvQAOhlnw3qmQ3usW2uKs6vVzh2V9BGcGskiYzJ1R0pytjXmyNHLGfIO8r06rjI3zpL4_X8pqzmgG0GsdCoy0rJYoYMhhh9k_7rD_7jKg1a622AvHLWApmf_70zk9Y2Kh0r7T60SIOItRu7DrX3GLf3vbteN1i9fQn9ymDDUoa2RYhdLI9COicvM6yn1cQ8tKwnYgBp2M7terfVBuaKpofp5oL7fmcaYFCWaGbkCAsxSRAFYrJYAm2mYQTh8iHfVR4diXjZtTiZkx9-FyxCkAtRLgVv0NBBgurDzoT3SLFW6Rff117cByLV_QzZL-cfabi8DHiwuoJnMmq8wMKX8AVbVGuRKdXGUbMbac_liyh8lFJvE2j2Oqk3HHUyzHM-vRQ0uA-0FtcgKx_wEBzpY3kBc49pjj4Qbh9PmZA1dx1BepK1SC-tZH_PH7QlCweU46J-Otx70NCml_o_Rp3yxBsdraP752fb65ThivzT2yBOVRv15honUwBfJf5B2cDcsftPvxSQhf_PH4H55qJXK_KHuzBkW7qQbR_clmBCofF8mBQWk7IeLK6HHcWV3qKRi6yWWcXaE5btxXXZ6_cMOslInpYXBcw-BIn0-91ufd3J1vAGlTzFYtJaNO4lfYPBJEWPjGe3YF8Sap1h9L077Cg47NOvqYXrJ0QOOBIQrZf6uBLLSGGYlLMiKWaU11GiwJE7xKXiAxopL0wNO0bmDxxM1gK3Y7pmz9mPIIvHcUz2bxBVyUeHf7zP_9w27scs1a9f--YeIsfcfx4nofD7gY0_2oTAJUYMZqDZTG7q8ZR8PUsg5p6xqbdeACmyuBQInIHShVKzTs0XX4N1168Hda_Vep-pi_QWpPQE29H701Irw83rdMCCx7IP9FdTTDInDiFBa_bc3ATFBslEXXYtaxIt8UaHynasHuOPFA2r4jWMhLgvvMJDjU4yVQtqSZmKKOefZHGQhDHGmq0HUz2dEcF7KJpjQ19LTcf0RIS_9h76m4-G3g9wyP01WpHUMyK75LlATe9PXrHE0sVuQxs3ww9SI8_PYf9zfavnRW1wJb1rUrDK7DWHO8zwJPc5kZmrho3mMDEU9H8qA3ixpQ66vfy5csLH5p__es_mN_lV21K-EdZcmyiPzCK96x7P6dUaeaLdv6b8tpmyo5zq_5ieiiM19W9oPyCZKa1sk1Gutqp4iy2p4kw54RiMNZtx6ATM6pCqU4fjWFi0vgoyCmnvTHlXe7swkzocTEWa0WD8QMXgKx6t4Hr3wXu42jmhNlC3bJUytivVtfsBJd1SNFX291G_GJ0-bJuhM1kAlRK79AMK-Oq-hChCZc9HCSdJBhnjNxACFUkAEEfhPKUzBKA4HctYnlX4zIpmP65qcaujG5BQj13VS-Fu2tC4on8Wa42ccznpQrLZec75scSexuPuI-z-8viiTVnofO4Ilk0owM9_MJcBzL16o08WMFTK6eDFddK4W2DSwHm8rokoB4VwCI-1A1dXxfo87yDfX8APeYP8__9Px9eymGCDAAA.eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLU5PUlRILUNFTlRSQUwtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7Im1vZGVybkVtYmVkIjpmYWxzZX19';
+
+      // Read embed URL from textbox
+      var txtEmbedUrl =
+        'https://app.powerbi.com/reportEmbed?reportId=f6bfd646-b718-44dc-a378-b73e6b528204&groupId=be8908da-da25-452e-b220-163f52476cdd&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLVVTLU5PUlRILUNFTlRSQUwtcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7Im1vZGVybkVtYmVkIjp0cnVlLCJjZXJ0aWZpZWRUZWxlbWV0cnlFbWJlZCI6dHJ1ZX19';
+
+      // Read report Id from textbox
+      var txtEmbedReportId = 'f6bfd646-b718-44dc-a378-b73e6b528204';
+
+      // Read embed type from radio
+      var tokenType = 1;
+
+      // Get models. models contains enums that can be used.
+      var models = window['powerbi-client'].models;
+
+      // We give All permissions to demonstrate switching between View and Edit mode and saving report.
+      var permissions = models.Permissions.All;
+
+      // Embed configuration used to describe the what and how to embed.
+      // This object is used when calling powerbi.embed.
+      // This also includes settings and options such as filters.
+      // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+      var config = {
+        type: 'report',
+        tokenType:
+          tokenType == '0' ? models.TokenType.Aad : models.TokenType.Embed,
+        accessToken: txtAccessToken,
+        embedUrl: txtEmbedUrl,
+        id: txtEmbedReportId,
+        permissions: permissions,
+        settings: {
+          panes: {
+            filters: {
+              visible: true,
+            },
+            pageNavigation: {
+              visible: true,
+            },
+          },
+        },
+      };
+
+      // Get a reference to the embedded report HTML element
+      var embedContainer = $('#embedContainer')[0];
+
+      // Embed the report and display it within the div container.
+      var report = powerbi.embed(embedContainer, config);
+
+      // Report.off removes a given event handler if it exists.
+      report.off('loaded');
+
+      // Report.on will add an event handler which prints to Log window.
+      report.on('loaded', function () {
+        Log.logText('Loaded');
+      });
+
+      // Report.off removes a given event handler if it exists.
+      report.off('rendered');
+
+      // Report.on will add an event handler which prints to Log window.
+      report.on('rendered', function () {
+        Log.logText('Rendered');
+      });
+
+      report.on('error', function (event) {
+        Log.log(event.detail);
+
+        report.off('error');
+      });
+
+      report.off('saved');
+      report.on('saved', function (event) {
+        Log.log(event.detail);
+        if (event.detail.saveAs) {
+          Log.logText(
+            'In order to interact with the new report, create a new token and load the new report'
+          );
+        }
+      });
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
+ -->
